@@ -1,9 +1,9 @@
 variable "access_key" {
-  description = "Region of AWS"
+  description = "AWS access key"
   type        = string
 }
 
 variable "secret_key" {
-  description = "EC2 Instance Type "
+  description = "AWS secret key "
   type        = string
 }
