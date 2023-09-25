@@ -1,7 +1,3 @@
-module "ec2-instance" {
-  source  = "terraform-aws-modules/ec2-instance/aws"
-  version = "5.2.1"
-
-  instance_type = "t2.micro"
-
+resource "aws_s3_bucket" "example" {
+  bucket = "my-tf-test-bucket-29"
 }
